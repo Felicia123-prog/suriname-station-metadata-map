@@ -1,0 +1,108 @@
+StationID,Station Name,Transport ID,Type,Country,District,Begin Date,End Date,Latitude,Longitude,Status
+10ZanderijSynop,Zanderij SYNOP,,SYNOP,Suriname,Para,1/1/1951,,5.4494444,-55.2044444,Operationeel
+10ZorgEnHoopSynop,Zorg en Hoop SYNOP,,SYNOP,Suriname,Paramaribo,1/1/1959,,5.8113889,-55.1866667,Operationeel
+10NickerieSynop,Nickerie SYNOP,,SYNOP,Suriname,Nickerie,1/1/1955,,5.9563889,-57.0394444,Operationeel
+20AllianceAWS,Alliance AWS,4EC0E22C,AWS,Suriname,Commewijne,21/2/2020,,5.893253,-54.888367,Operationeel
+20ApoeraAWS,Apoera AWS,4EC04C06,AWS,Suriname,Sipaliwini,20/3/2020,,5.183035,-57.161878,Operationeel
+20BaitaliARS,Baitali (Kabalebo) ARS,4EC06438,ARS,Suriname,Sipaliwini,20/10/2018,,4.990833,-57.447222,Operationeel
+20BoskampAWS,Boskamp AWS,4EC06AEA,AWS,Suriname,Saramacca,9/9/2021,,5.775579,-55.891388,Operationeel
+20BrokopondoCentrumARS,Brokopondo Centrum ARS,4EC051A2,ARS,Suriname,Sipaliwini,11/6/2019,,5.054678,-54.977144,Operationeel
+20CayanaARS,Cayana ARS,4EC02732,ARS,Suriname,Sipaliwini,15/9/2023,,3.899905556,-55.57298333,Operationeel
+20CoeroeniARS,Coeroenie ARS,4EC0FF88,ARS,Suriname,Sipaliwini,30/9/2023,,3.370194444,-57.34402778,Operationeel
+20CoronieAWS,Coronie AWS,4EC10DF6,AWS,Suriname,Coronie,15/12/2021,,5.882425,-56.339238,Operationeel
+20CultuurtuinAWS,Cultuurtuin AWS,4EC0799C,AWS,Suriname,Paramaribo,6/11/2018,,5.841222,-55.159825,Operationeel
+20CremerARS,Cremer ARS,,ARS,Suriname,Sipaliwini,18/11/2018,30/09/2022,4.965314,56.590281,Niet-operationeel
+20DrietabbetjeARS,Drietabbetje ARS,4EC01C7A,ARS,Suriname,Sipaliwini,19/5/2023,,4.112,-54.67294444,Niet-operationeel
+20DuisburgAWS,Duisburg AWS,4EC0C4C0,AWS,Suriname,Paramaribo,5/11/2018,,5.805550336,-55.21471058,Operationeel
+20EAGAWS,EAG Airport AWS,4EC0ECFE,AWS,Suriname,Paramaribo,27/1/2025,,5.8588889,-55.1916667,Operationeel
+20FallawatraARS,Fallawatra ARS,4EC0774E,ARS,Suriname,Para,20/10/2023,,4.970336,-56.562961,Operationeel
+20GalibiAWS,Galibi AWS,4EC0CA12,ARS,Suriname,Marowijne,8/7/2023,,5.703988889,-54.01608611,Niet-operationeel
+20GoliathARS,Goliath ARS,4EC03444,ARS,Suriname,Sipaliwini,6/11/2023,,5.289452778,-55.57049167,Operationeel
+20KaboARS,Kabo ARS,4EC15D8A,ARS,Suriname,Sipaliwini,3/11/2023,,5.310972,-55.85080278,Operationeel
+20KawenhakenARS,Kawenhaken ARS,4EC00F0C,ARS,Suriname,Sipaliwini,13/07/2023,,3.411611111,-54.02484167,Operationeel
+20KwamalasamoetoeAWS,Kwamalasamoetoe AWS,4EC175B4,AWS,Suriname,Sipaliwini,12/12/2024,,2.353622222,-56.79211111,Niet-operationeel
+20KwattaAWS,Kwatta AWS,,AWS,Suriname,Wanica,19/05/2022,,5.8473087,-55.2295178,Operationeel
+20LaPouleAWS,La Poule AWS,4EC0D7B6,AWS,Suriname,Saramacca,12/3/2020,,5.764081,-55.4252,Operationeel
+20LeliendaalAWS,Leliendaal AWS,4EC08918,AWS,Suriname,Commewijne,17/2/2020,,5.875464,-55.035111,Operationeel
+20LelydorpAWS,Lelydorp AWS,,AWS,Suriname,Wanica,19/05/2022,,5.6990891,-55.2154772,Operationeel
+20MoengoAWS,Moengo AWS,4EC0AFF4,AWS,Suriname,Marowijne,20/5/2022,,5.628283,-54.406677,Operationeel
+20NickerieAWS,Nickerie AWS,4EC05F70,AWS,Suriname,Nickerie,28/3/2020,,5.956638,-57.03956,Operationeel
+20NieuwAmsterdamAWS,Nieuw-Amsterdam AWS,4EC09A6E,AWS,Suriname,Commewijne,25/8/2021,,5.886111,-55.093056,Operationeel
+20PaloemeuARS,Paloemeu ARS,4EC11E80,ARS,Suriname,Sipaliwini,8/10/2023,,3.346954899,-55.43923563,Operationeel
+20PeperpotARS,Peperpot ARS,4EC042D4,ARS,Suriname,Commewijne,29/12/2024,,5.79226389,-55.13023056,Niet-operationeel
+20PoesoegroenoeARS,Poesoegroenoe ARS,4EC10324,ARS,Suriname,Sipaliwini,9/3/2023,,4.3954,-55.7881,Operationeel
+20RaleighvallenARS,Raleighvallen ARS,4EC001DE,ARS,Suriname,Sipaliwini,24/10/2023,,4.724369,-56.208594,Niet-operationeel
+20RedidotiARS,Redidoti ARS,4EC0BC82,ARS,Suriname,Sipaliwini,2/3/2023,,5.4256,-54.9752,Operationeel
+20Ring HarbourAWS,Ring Harbour AWS,4EC0C4C0,AWS,Suriname,Paramaribo,7/2/2022,14/1/2025,5.884417,-55.174847,Niet-operationeel
+20SpieringshoekARS,Spieringshoek ARS,4EC0A126,ARS,Suriname,Commewijne,18/3/2023,,5.868,-54.98088889,Operationeel
+20StaatsboerderijReebergAWS,Staatsboerderij (Reeberg) AWS,,AWS,Suriname,Wanica,19/05/2022,,5.6951449,-55.2812942,Operationeel
+20StoelmansEilandAWS,Stoelmans Eiland AWS,4EC0F15A,AWS,Suriname,Sipaliwini,13/6/2019,8/5/2023,4.350278,-54.418056,Niet-operationeel
+20StolkertsijverARS,Stolkertsijver ARS,4EC012A8,ARS,Suriname,Commewijne,26/7/2023,,5.755583333,-54.74759167,Operationeel
+20TafelBergAWS,TafelBerg AWS,4EC11052,AWS,Suriname,Sipaliwini,17/8/2019,19/08/2023,3.789889,56.151125,Niet-operationeel
+20TijgerkreekARS,Tijgerkreek ARS,4EC094BC,ARS,Suriname,Saramacca,22/2/2023,,5.843,-55.6283,Operationeel
+20WageningenARS,Wageningen ARS,4EC029E0,ARS,Suriname,Nickerie,11/5/2023,,5.842863889,-56.67285278,Operationeel
+20WitagronARS,Witagron ARS,4EC087CA,ARS,Suriname,Sipaliwini,16/10/2018,,5.164267,-56.076472,Operationeel
+20ZanderijAWS,Zanderij AWS,4EC03A96,AWS,Suriname,Para,7/11/2018,,5.449525,-55.204536,Operationeel
+20ZorgEnHoopAWS,Zorg en Hoop AWS,4EC0D964,AWS,Suriname,Paramaribo,5/4/2020,4/1/2024,5.810896,-55.193036,Niet-operationeel
+30ZanderijKlima,Zanderij Klima,,Klima-RR,Suriname,Para,,,5.4494444,-55.2044444,Operationeel
+30ZorgEnHoopKlima,Zorg en Hoop Klima,,Klima-RR,Suriname,Paramaribo,,,5.8113889,-55.1866667,Operationeel
+30NickerieKlima,Nickerie Klima,,Klima-RR,Suriname,Nickerie,,,5.9563889,-57.0394444,Operationeel
+40AlalapaduLVT,Alalapadu LVT,,LVT,Suriname,Sipaliwini,,,2.523411616,-56.324665,Operationeel
+40ApoeraLVT,Apoera LVT,,LVT,Suriname,Sipaliwini,,,5.18115304,-57.161085,Operationeel
+40ApetinaLVT,Apetina LVT,,LVT,Suriname,Sipaliwini,,,3.569083795,-55.06069875,Operationeel
+40BotopasieLVT,Botopasie LVT,,LVT,Suriname,Sipaliwini,,,4.264036243,-55.45045236,Operationeel
+40CayanaLVT,Cayana LVT,,LVT,Suriname,Sipaliwini,,,3.898898041,-55.57812224,Operationeel
+40CoeroenieLVT,Coeroenie LVT,,LVT,Suriname,Sipaliwini,,,2.794556525,-56.73994922,Operationeel
+40CotticaLVT,Cottica LVT,,LVT,Suriname,Sipaliwini,,,3.85337722,-54.22525074,Operationeel
+40DjoemoeLVT,Djoemoe LVT,,LVT,Suriname,Sipaliwini,,,4.010013981,-55.46651268,Operationeel
+40DonderskampLVT,Donderskamp LVT,,LVT,Suriname,Sipaliwini,,,5.35098,-56.3618,Operationeel
+40DrietabbetjeLVT,Drietabbetje LVT,,LVT,Suriname,Sipaliwini,,,4.126724855,-54.62453545,Operationeel
+40GodoholoLVT,Godoholo LVT,,LVT,Suriname,Sipaliwini,,,4.057689572,-54.78481344,Operationeel
+40KabaleboLVT,Kabalebo LVT,,LVT,Suriname,Sipaliwini,,,4.40137219,-57.21799155,Niet-operationeel
+40KayserGebergteLVT,KayserGebergte LVT,,LVT,Suriname,Sipaliwini,,,3.053541266,-56.58322046,Niet-operationeel
+40KwamalasamoetoeLVT,Kwamalasamoetoe LVT,,LVT,Suriname,Sipaliwini,,,2.351741137,-56.79023173,Operationeel
+40LaduaniLVT,Laduani LVT,,LVT,Suriname,Sipaliwini,,,4.22843,-55.24123,Niet-operationeel
+40NieuwJacobkondreLVT,Nieuw Jacobkondre LVT,,LVT,Suriname,Sipaliwini,,,4.936222585,-55.5347033,Niet-operationeel
+40PaloemeuLVT,Paloemeu LVT,,LVT,Suriname,Sipaliwini,,,3.346259038,-55.4392345,Operationeel
+40PoesoegroenoeLVT,Poesoegroenoe LVT,,LVT,Suriname,Sipaliwini,,,4.396287267,-55.78801818,Operationeel
+40RaleighvallenLVT,Raleighvallen LVT,,LVT,Suriname,Sipaliwini,,,4.4392,-57.187318,Niet-operationeel
+40SipaliwiniDorpLVT,Sipaliwini Dorp LVT,,LVT,Suriname,Sipaliwini,,,2.02,-56.07991,Operationeel
+40StoelmansEilandLVT,Stoelmans Eiland LVT,,LVT,Suriname,Sipaliwini,,,4.351245206,-54.41953134,Operationeel
+40TepoeLVT,Tepoe LVT,,LVT,Suriname,Sipaliwini,,,3.159317656,-55.70668863,Operationeel
+40LangatabbetjeLVT,Langatabbetje LVT,,LVT,Suriname,Sipaliwini,,,4.997606,-54.517826,Niet-operationeel
+40MoengoLVT,Moengo LVT,,LVT,Suriname,Sipaliwini,,,5.622399684,-54.38981075,Niet-operationeel
+40AmotopoLVT,Amotopo LVT,,LVT,Suriname,Sipaliwini,,,3.533333,-57.6,Niet-operationeel
+40LawaAnapaikeLVT,Lawa Anapaike LVT,,LVT,Suriname,Sipaliwini,,,3.429655543,-54.02561389,Operationeel
+40LawaAntinoLVT,Lawa Antino LVT,,LVT,Suriname,Sipaliwini,,,3.404924498,-54.09269441,Operationeel
+40LawaTabikiLVT,Lawa Tabiki LVT,,LVT,Suriname,Sipaliwini,,,3.680054597,-54.08514517,Operationeel
+40CoronieLVT,Coronie LVT,,LVT,Suriname,Coronie,,,5.736389,-56.024722,Operationeel
+40OelemarieLVT,Oelemarie LVT,,LVT,Suriname,Sipaliwini,,,3.116589345,-54.55934617,Operationeel
+40AlbinaLVT,Albina LVT,,LVT,Suriname,Marowijne,,,5.501518025,-54.05413579,Niet-operationeel
+40TijgerkreekLVT,Tijgerkreek LVT,,LVT,,,,,,,
+50WakayVolunteer,Wakay Volunteer,,Veldmedewerker,Suriname,Nickerie,,9/3/2022,5.266667,-57.216667,Niet-operationeel
+50AllianceVolunteer,Alliance Volunteer,,Veldmedewerker,Suriname,Commewijne,,,5.89444268,-54.88749986,Operationeel
+50LeliendaalVolunteer,Leliendaal Volunteer,,Veldmedewerker,Suriname,Commewijne,,,5.85,-55.033333,Operationeel
+50MoengoVolunteer,Moengo Volunteer,,Veldmedewerker,Suriname,Marowijne,,4/5/2023,5.62144444,-54.39105555,Niet-operationeel
+50DomburgVolunteer,Domburg Volunteer,,Veldmedewerker,Suriname,Wanica,,,5.70111187,-55.08277508,Operationeel
+50GrootHenarVolunteer,Groot Henar Volunteer,,Veldmedewerker,Suriname,Nickerie,,,5.86471,-56.88696,Operationeel
+50NieuwAmsterdamVolunteer,Nieuw-Amsterdam Volunteer,,Veldmedewerker,Suriname,Commewijne,,,5.88555918,-55.09417042,Operationeel
+50SpieringshoekVolunteer,Spieringshoek Volunteer,,Veldmedewerker,Suriname,Commewijne,,8/5/2024,5.86805317,-54.97277827,Niet-operationeel
+50CultuurtuinVolunteer,Cultuurtuin Volunteer,,Veldmedewerker,Suriname,Paramaribo,,3/9/2024,5.83916808,-55.15944175,Niet-operationeel
+50DirkshoopVolunteer,Dirkshoop Volunteer,,Veldmedewerker,Suriname,Saramacca,,27/4/2023,5.78952831,-55.48301041,Niet-operationeel
+50GroningenVolunteer,Groningen Volunteer,,Veldmedewerker,Suriname,Saramacca,,16/11/2023,5.79167115,-55.47611525,Niet-operationeel
+50TijgerkreekVolunteer,Tijgerkreek Volunteer,,Veldmedewerker,Suriname,Saramacca,,18/09/2023,5.84297655,-55.62826782,Niet-operationeel
+50UitkijkVolunteer,Uitkijk Volunteer,,Veldmedewerker,Suriname,Saramacca,,,5.77722064,-55.34694143,Operationeel
+50WegnaarZeeVolunteer,Weg naar Zee Volunteer,,Veldmedewerker,Suriname,Paramaribo,,9/12/2022,5.88995905,-55.23028479,Niet-operationeel
+50DuisburgVolunteer,Duisburg Volunteer,,Veldmedewerker,Suriname,Paramaribo,,30/06/2022,5.80638634,-55.21416981,Niet-operationeel
+50LaPouleVolunteer,La Poule Volunteer,,Veldmedewerker,Suriname,Saramacca,,31/01/2022,5.75,-55.416667,Niet-operationeel
+50PeperpotVolunteer,Peperpot Volunteer,,Veldmedewerker,Suriname,Commewijne,,15/03/2022,5.8,55.15,Niet-operationeel
+50KwattaVolunteer,Kwatta Volunteer,,,,,,,,,Niet-operationeel
+50LelydorpVolunteer,Lelydorp Volunteer,,,,,,,,,Niet-operationeel
+50StaatsboerderijVolunteer,Staatsboerderij (Reeberg) Volunteer,,,,,,,,,Niet-operationeel
+50PericaVolunteer,Perica Volunteer,,,,,,,,,
+60Albina AWLS,Albina AWLS,4EC136BE,AWLS,Suriname,Marowijne,13/8/2023,,5.516667,-54.043583,Niet-operationeel
+60Bigipan AWLS,Bigipan AWLS,4EC12B1A,AWLS,Suriname,Nickerie,22/6/2023,,5.962181,-56.864031,Operationeel
+60Nanisluis AWLS,Nanisluis AWLS,4EC166C2,AWLS,Suriname,Nickerie,12/5/2023,,5.882294,-57.078722,Niet-operationeel
+60Nanizwamp AWLS,Nanizwamp AWLS,4EC125C8,AWLS,Suriname,Nickerie,17/6/2023,,5.812614,-56.984328,Operationeel
+60Pikin Saron AWLS,Pikin Saron AWLS,4EC14EFC,AWLS,Suriname,Para,8/12/2023,,5.390281,-55.367542,Operationeel
+60Pokigron AWLS,Pokigron AWLS,4EC0B250,AWLS,Suriname,Sipaliwini,19/5/2023,,4.488275,-55.365092,Operationeel
