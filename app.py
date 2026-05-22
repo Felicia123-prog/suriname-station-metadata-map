@@ -4,15 +4,39 @@ import folium
 from streamlit_folium import st_folium
 
 # ----------------------------------------------------
+# Page config + custom styling
+# ----------------------------------------------------
+st.set_page_config(page_title="Suriname Station Metadata Map", layout="wide")
+
+st.markdown("""
+    <style>
+        body {
+            background-color: #f2f7ff;
+        }
+        .banner {
+            background-color: #0066cc;
+            padding: 18px;
+            border-radius: 8px;
+            color: white;
+            font-size: 26px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+st.markdown("<div class='banner'>Suriname Station Metadata Map</div>", unsafe_allow_html=True)
+
+
+# ----------------------------------------------------
 # Load metadata CSV
 # ----------------------------------------------------
 def load_metadata():
     df = pd.read_csv("data/MetaData_Meteo_Stations.csv")
 
-    # Kolommen lowercase maken
     df.columns = df.columns.str.lower()
 
-    # Kolommen mappen naar uniforme namen
     df = df.rename(columns={
         "station name": "station_name",
         "type": "station_type",
@@ -22,10 +46,20 @@ def load_metadata():
         "status": "status"
     })
 
+    # District schoonmaken
+    df["district"] = df["district"].astype(str).str.strip().str.lower()
+    df["district_display"] = df["district"].str.title()
+
+    # Type schoonmaken
+    df["station_type"] = df["station_type"].astype(str).str.strip()
+
     # Verwijder rijen zonder coordinaten
     df = df.dropna(subset=["latitude", "longitude"])
 
     return df
+
+
+df = load_metadata()
 
 
 # ----------------------------------------------------
@@ -48,44 +82,27 @@ def get_icon_color(station_type):
 
 
 # ----------------------------------------------------
-# Streamlit Page Config
-# ----------------------------------------------------
-st.set_page_config(
-    page_title="Suriname Station Metadata Map",
-    layout="wide"
-)
-
-st.title("Suriname Station Metadata Map")
-st.write("Interactieve kaart met metadata van meteorologische stations in Suriname.")
-
-df = load_metadata()
-
-
-# ----------------------------------------------------
 # Sidebar Filters
 # ----------------------------------------------------
 st.sidebar.header("Filters")
 
-# District filter
-district_list = ["Alle"] + sorted(df["district"].dropna().unique().tolist())
+district_list = ["Alle"] + sorted(df["district_display"].unique())
 selected_district = st.sidebar.selectbox("District", district_list)
 
-# Station type filter
-type_list = ["Alle"] + sorted(df["station_type"].dropna().unique().tolist())
+type_list = ["Alle"] + sorted(df["station_type"].dropna().unique())
 selected_type = st.sidebar.selectbox("Station Type", type_list)
 
-# Status filter
-status_list = ["Alle"] + sorted(df["status"].dropna().unique().tolist())
+status_list = ["Alle"] + sorted(df["status"].dropna().unique())
 selected_status = st.sidebar.selectbox("Status", status_list)
 
 
 # ----------------------------------------------------
-# Filter logic
+# Apply filters
 # ----------------------------------------------------
 filtered_df = df.copy()
 
 if selected_district != "Alle":
-    filtered_df = filtered_df[filtered_df["district"] == selected_district]
+    filtered_df = filtered_df[filtered_df["district_display"] == selected_district]
 
 if selected_type != "Alle":
     filtered_df = filtered_df[filtered_df["station_type"] == selected_type]
@@ -95,7 +112,7 @@ if selected_status != "Alle":
 
 
 # ----------------------------------------------------
-# Map Center
+# Map center
 # ----------------------------------------------------
 if len(filtered_df) > 0:
     center_lat = filtered_df["latitude"].mean()
@@ -115,7 +132,7 @@ for _, row in filtered_df.iterrows():
     <div style='font-size:14px; line-height:1.4'>
         <b style='font-size:16px'>{row.get('station_name', 'Onbekend')}</b><br><br>
         <b>Type:</b> {row.get('station_type', 'n/a')}<br>
-        <b>District:</b> {row.get('district', 'n/a')}<br>
+        <b>District:</b> {row.get('district_display', 'n/a')}<br>
         <b>Status:</b> {row.get('status', 'n/a')}<br>
         <b>Latitude:</b> {row.get('latitude', 'n/a')}<br>
         <b>Longitude:</b> {row.get('longitude', 'n/a')}<br>
@@ -132,6 +149,6 @@ for _, row in filtered_df.iterrows():
 
 
 # ----------------------------------------------------
-# Display Map
+# Display Map (full width)
 # ----------------------------------------------------
-st_folium(m, width=900, height=550)
+st_folium(m, width="100%", height=750)
