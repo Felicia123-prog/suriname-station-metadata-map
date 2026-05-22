@@ -6,7 +6,7 @@ from streamlit_folium import st_folium
 # ----------------------------------------------------
 # Page config + custom styling
 # ----------------------------------------------------
-st.set_page_config(page_title="Suriname Station Metadata Map", layout="wide")
+st.set_page_config(page_title="Meteorologische Dienst Suriname — Station Metadata Map", layout="wide")
 
 st.markdown("""
     <style>
@@ -26,7 +26,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<div class='banner'>Suriname Station Metadata Map</div>", unsafe_allow_html=True)
+st.markdown("<div class='banner'>Meteorologische Dienst Suriname — Station Metadata Map</div>", unsafe_allow_html=True)
 
 
 # ----------------------------------------------------
@@ -46,14 +46,11 @@ def load_metadata():
         "status": "status"
     })
 
-    # District schoonmaken
     df["district"] = df["district"].astype(str).str.strip().str.lower()
     df["district_display"] = df["district"].str.title()
 
-    # Type schoonmaken
     df["station_type"] = df["station_type"].astype(str).str.strip()
 
-    # Verwijder rijen zonder coordinaten
     df = df.dropna(subset=["latitude", "longitude"])
 
     return df
